@@ -95,7 +95,7 @@ function createintro() {
       color: '#fff',
       align: 'center',
       strokeThickness: 2
-    } 
+    }
   ); 
   titletext.setOrigin(0.5,0.5);
   // set up title screen
