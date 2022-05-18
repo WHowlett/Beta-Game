@@ -39,6 +39,14 @@ let scene5 = { // Scene for how to play
   update: updatelearn
 }
 
+let scene6 = {
+  key: 'scene6',
+  active: false,
+  preload: preload2,
+  create: create2,
+  update: update2
+}
+
 let config = {
   width: 1000,
   height: 800,
@@ -50,7 +58,7 @@ let config = {
       debug: false
     }
   },
-  scene: [scene1, scene2, scene3, scene4, scene5],
+  scene: [scene1, scene2, scene3, scene4, scene5, scene6],
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH
@@ -323,6 +331,19 @@ if (cursors.up.isDown && bunny.body.touching.down)
 
   
 };
+
+
+//Level 2
+function preload2() {
+  
+};
+function create2() {
+  
+};
+function update2() {
+  
+}
+
 
 //Winner Scene
 function preend() {
